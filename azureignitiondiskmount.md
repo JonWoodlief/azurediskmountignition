@@ -169,3 +169,7 @@ sdc           ext4        containerfs       abe69268-0540-47c7-af1c-89a5f0ca58d8
 
 ```
 
+## troubleshoot
+```bash
+journalctl -b -f u makecontainerfs.service -u var-lib-containers.mount -u restorecon-var-lib-containers.service
+```
