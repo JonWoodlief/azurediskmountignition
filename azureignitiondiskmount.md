@@ -143,7 +143,7 @@ and add the following entry to your worker and master .ign files
           "name": "root"
         },
         "contents": {
-          "source": <insert-base64-encoded-mountscript>
+          "source": <insert-base64-encoded-mountscript>,
           "verification": {}
         },
         "mode": 365
